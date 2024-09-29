@@ -1,17 +1,17 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://World/Ting/SkiltAlfa.png" type="Texture2D" id=1]
+[ext_resource path="res://World/Ting/SkiltAlfa.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 24, 24 )
+extents = Vector2( 16, 8 )
 
 [node name="SkiltAlfa" type="StaticBody2D"]
 
-[node name="SkiltAlfa" type="Sprite2D" parent="."]
-position = Vector2( 1, -5 )
+[node name="SkiltAlfa" type="Sprite" parent="."]
+position = Vector2( 0, -25 )
 texture = ExtResource( 1 )
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 16, 16 )
+position = Vector2( 16, -8 )
 shape = SubResource( 1 )

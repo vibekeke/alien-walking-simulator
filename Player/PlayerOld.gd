@@ -1,4 +1,4 @@
-extends CharacterBody2D
+extends KinematicBody2D
 
 const ACCELERATION = 800
 const MAX_SPEED = 100
@@ -7,9 +7,9 @@ const FRICTION = 900
 
 var velocity = Vector2.ZERO
 
-@onready var animationPlayer = $AnimationPlayer
-@onready var animationTree = $AnimationTree
-@onready var animationState = animationTree.get("parameters/playback")
+onready var animationPlayer = $AnimationPlayer
+onready var animationTree = $AnimationTree
+onready var animationState = animationTree.get("parameters/playback")
 
 func _ready():
 	animationTree.active = true
@@ -30,7 +30,5 @@ func _physics_process(delta):
 		animationState.travel("Idle")
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta) 
 	
-	set_velocity(velocity)
-	move_and_slide()
-	velocity = velocity
+	velocity = move_and_slide(velocity)
 	

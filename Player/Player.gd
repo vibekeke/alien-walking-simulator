@@ -1,6 +1,6 @@
-extends CharacterBody2D
+extends KinematicBody2D
 
-@export var walk_speed = 4.0
+export var walk_speed = 4.0
 const TILE_SIZE = 32
 
 var initial_position = Vector2(0,0)
@@ -8,9 +8,9 @@ var input_direction = Vector2(0,0)
 var is_moving = false
 var percent_moved_to_next_tile = 0.0
 
-@onready var anim_tree = $AnimationTree
-@onready var anim_state = anim_tree.get("parameters/playback")
-@onready var ray = $RayCast2D
+onready var anim_tree = $AnimationTree
+onready var anim_state = anim_tree.get("parameters/playback")
+onready var ray = $RayCast2D
 
 enum PlayerState {IDLE, TURNING, WALKING}
 enum FacingDirection { LEFT, RIGHT, UP, DOWN}
@@ -80,8 +80,9 @@ func finished_turning():
 	
 	
 func move(delta):
-	var desired_step: Vector2 = input_direction * TILE_SIZE / 4
-	ray.target_position = desired_step
+	print(self.position)
+	var desired_step: Vector2 = input_direction * TILE_SIZE / 2
+	ray.cast_to = desired_step
 	ray.force_raycast_update()
 	if !ray.is_colliding():
 		percent_moved_to_next_tile += walk_speed * delta
@@ -94,3 +95,5 @@ func move(delta):
 	else:
 		is_moving = false
 		percent_moved_to_next_tile = 0.0
+		
+		
