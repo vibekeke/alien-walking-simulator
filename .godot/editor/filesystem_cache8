@@ -1,0 +1,38 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1726697889
+default_env.tres::Environment::-1::1726697869::0::1::::<><>::
+icon.png::CompressedTexture2D::1370580089189638619::1627138558::1726697890::1::::<><>::
+MediumShadow.png::CompressedTexture2D::8871193059826429317::1627324557::1726697890::1::::<><>::
+World.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://Player/Player.tscn<>res://World/GressBackground.tscn<>res://World/GjerdeA.tscn<>res://World/BuskA.tscn<>res://World/Gress og paths/HoyGressScene.tscn<>res://World/new folder/RpgTree.tscn<>res://World/new folder/RpgGrass.tscn<>res://World/Gress og paths/FortauScene.tscn<>res://World/Ting/SkiltAlfa.tscn
+::res://Player/::1726697759
+Alien Sheet 4.png::CompressedTexture2D::8038269145570615012::1627232855::1726697890::1::::<><>::
+Alien Sheet 5.png::CompressedTexture2D::7552034801480654904::1627256431::1726697890::1::::<><>::
+Alien Sheet 6.png::CompressedTexture2D::6924189461999426069::1627387438::1726697890::1::::<><>::
+Player.gd::GDScript::-1::1726697869::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://Player/Alien Sheet 6.png<>res://Player/Player.gd<>res://MediumShadow.png
+PlayerOld.gd::GDScript::-1::1726697869::0::1::::<>CharacterBody2D<>::
+::res://World/::1726697759
+Busk1.png::CompressedTexture2D::7488077930787574409::1627240002::1726697890::1::::<><>::
+BuskA.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://World/Busk1.png
+DirtTileset.png::CompressedTexture2D::4482938362867771108::1627235684::1726697890::1::::<><>::
+GjerdeA.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://World/GjerdeBrunt.png
+GjerdeBrunt.png::CompressedTexture2D::6756250217199877487::1627240004::1726697890::1::::<><>::
+Grass.png::CompressedTexture2D::7668900326279092961::1627159829::1726697890::1::::<><>::
+GressBackground.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://World/Gress og paths/Lavgress.png
+Tree.png::CompressedTexture2D::8217365609866534625::1627235110::1726697890::1::::<><>::
+::res://World/Gress og paths/::1726697759
+Asfalt1TileMap.png::CompressedTexture2D::201189360844030916::1627331684::1726697890::1::::<><>::
+FortauBeta_tilemap.png::CompressedTexture2D::6046651192937432406::1627336045::1726697890::1::::<><>::
+FortauScene.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://World/Gress og paths/Asfalt1TileMap.png<>res://World/Gress og paths/FortauBeta_tilemap.png
+gressSpice.png::CompressedTexture2D::820982695071860543::1627408481::1726697890::1::::<><>::
+HoyGressRound.png::CompressedTexture2D::2301786285846799845::1627306886::1726697890::1::::<><>::
+HoyGressScene.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://World/Gress og paths/HoyGressSharp.png<>res://World/Gress og paths/HoyGressRound.png<>res://World/Gress og paths/gressSpice.png
+HoyGressSharp.png::CompressedTexture2D::2156152696024588983::1627306886::1726697890::1::::<><>::
+Høygress.png::CompressedTexture2D::6778724983623824053::1627306461::1726697890::1::::<><>::
+Lavgress.png::CompressedTexture2D::9064879246824463192::1627306464::1726697890::1::::<><>::
+::res://World/new folder/::1726697759
+RpgGrass.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://World/Grass.png
+RpgTree.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://World/Tree.png
+::res://World/Ting/::1726697759
+SkiltAlfa.png::CompressedTexture2D::2904157105713482388::1627390245::1726697890::1::::<><>::
+SkiltAlfa.tscn::PackedScene::-1::1726697869::0::1::::<><>::res://World/Ting/SkiltAlfa.png

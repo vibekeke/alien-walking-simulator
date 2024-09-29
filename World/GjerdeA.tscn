@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://World/GjerdeBrunt.png" type="Texture2D" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16, 8 )
+
+[node name="GjerdeBrunt" type="StaticBody2D"]
+
+[node name="GjerdeBrunt" type="Sprite2D" parent="."]
+position = Vector2( -2, 7 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 16, 32 )
+shape = SubResource( 1 )
