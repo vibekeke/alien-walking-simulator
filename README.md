@@ -4,7 +4,7 @@
 All assets made by me. Feel free to use them for whatever you want!
 
 The movement works on a grid-based system. The player casts a ray to check if there is something blocking their path, and if not - moves by a set amount.
-I had some trouble figuring out how to keep this system while still allowing the player to go behind objects, but in the end I managed and I'm happy with how it turned out.
+I had some trouble figuring out how to keep this system while still allowing the player to go behind objects, but in the end I managed and I'm happy with how it turned out. Player script: https://github.com/vibekeke/alien-walking-simulator/blob/main/Player/Player.gd
 
 ![ezgif-4-0a023ffc4f](https://github.com/user-attachments/assets/78c5145f-2ba7-4bd9-965d-cf1591383fc6)
 
